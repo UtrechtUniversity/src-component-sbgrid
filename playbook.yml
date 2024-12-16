@@ -29,7 +29,7 @@
         owner: root
         group: root
         mode: '0755' 
-        stage: directory
+        state: directory
     - name: Extract SBGrid tar file
       ansible.builtin.unarchive:
         src: /tmp/sbgrid_install.tar.gz
